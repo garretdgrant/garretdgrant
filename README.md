@@ -1,7 +1,7 @@
 # 👋 Hi! I’m Garret and I'm a software developer!
 - 💎 Checkout my recent project: [DiamondDoor](https://diamond-door.herokuapp.com/) [(Repo Link)](https://github.com/garretdgrant/diamond_door)
 - 🐍 I’m currently studying Machine Learning and Python!!
-- 📫 How to reach me: [g.grant92@gmail.com](mailto::g.grant92@gmail.com) or [LinkedIn](https://www.linkedin.com/in/garret-d-grant/)
+- 📫 How to reach me: [g.grant92@gmail.com](mailto:g.grant92@gmail.com) or [LinkedIn](https://www.linkedin.com/in/garret-d-grant/)
 
 
 
