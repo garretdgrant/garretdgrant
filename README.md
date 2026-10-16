@@ -1,42 +1,49 @@
-# 👋 Hi! I’m Garret and I'm a software developer!
-- 💎 Checkout my recent project: [DiamondDoor](https://diamond-door.herokuapp.com/) [(Repo Link)](https://github.com/garretdgrant/diamond_door)
-- 🐍 I’m currently studying Machine Learning and Python!!
-- 📫 How to reach me: [garret.grant.swe@gmail.com](mailto:garret.grant.swe@gmail.com) or [LinkedIn](https://www.linkedin.com/in/garret-d-grant/)
+# Hi, I'm Garret Grant
 
+Software Engineer at Realtor.com focused on TypeScript, JavaScript, full-stack applications, APIs, and reliable production systems. I also build and operate revenue-generating web products, working across the frontend, backend, payments, and deployment.
 
+[LinkedIn](https://www.linkedin.com/in/garret-d-grant/) · [Email](mailto:garret.grant.swe@gmail.com) · [PepPal](https://www.peppal.app/) · [Peptide Dosing Protocols](https://www.peptidedosingprotocols.com/)
 
-### Languages and Tools
-![My Skills](https://skillicons.dev/icons?i=ruby,js,py,react,rails,redux,mongo,postgres,express,git,github,html,css)
+## What I work on
 
+- **Production systems:** Key contributor to Realtor.com's CloudFront and Lambda@Edge router, with work spanning production changes, observability, and service migrations.
+- **Developer tooling:** Led development of all five versions of the TypeScript/NestJS Starter App and developer-portal template, standardizing microservice creation and deployment across 48 repositories, including 19 production services used by 13 teams.
+- **Full-stack products:** Built the PepPal React/TypeScript application and NestJS/PostgreSQL backend, alongside Next.js marketing websites for PepPal and Peptide Dosing Protocols.
 
-### Connect With Me!
-[<img align="left" alt="gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:g.grant92@gmail.com) 
-[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/garret-d-grant/) [<img align="left" alt="angel-list" src="https://img.shields.io/badge/AngelList-000000?style=for-the-badge&logo=AngelList&logoColor=white" />](https://angel.co/u/garret-diego-grant)<br/>
+## Selected products
 
+### [PepPal](https://www.peppal.app/)
 
+A production application for saved calculations, calendar-based tracking, and subscription features.
 
-### My Github Stats
+- React, TypeScript, and Vite frontend with a NestJS API and PostgreSQL/Prisma data layer.
+- Stripe subscription checkout, customer billing portal, and webhook-driven subscription updates.
+- Resend transactional email, Listmonk subscriber workflows, and a separate Next.js marketing website.
+- Multistage Docker build for the backend and a Docker-hosted Listmonk service.
 
-![Anurag’s GitHub stats](https://github-readme-stats.vercel.app/api?username=garretdgrant&show_icons=true&theme=radical&hide=issues)
+### [Peptide Dosing Protocols](https://www.peptidedosingprotocols.com/)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=garretdgrant&layout=compact&theme=radical)
+A revenue-generating Next.js website with supplier-directory integrations, product discovery, and email subscriber workflows.
 
-<!---
-jayreddy040-510/jayreddy040-510 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Engineering case study: billing and email reliability
 
-<!--
-**garretdgrant/garretdgrant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Across the PepPal app and website, I implemented billing and email workflows with explicit failure handling:
 
-Here are some ideas to get you started:
+- **Verify incoming events:** Validate Stripe webhook signatures against the raw request body before processing checkout and subscription events.
+- **Handle event ordering:** Check stored Stripe event timestamps before applying subscription updates so older events can be ignored.
+- **Reduce duplicate emails:** Use Resend idempotency keys, persisted send markers, and database claims for trial-ending reminders.
+- **Retry selectively:** Retry Listmonk rate-limit responses using `Retry-After` or exponential backoff. Avoid automatically retrying other failures that could duplicate an already-queued email.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tools I use
+
+- **Languages:** TypeScript, JavaScript, SQL, Go, Bash
+- **Applications and APIs:** Node.js, React, Next.js, NestJS, REST, GraphQL, PostgreSQL, Prisma, Jest
+- **Cloud and delivery:** AWS, Docker, Kubernetes, Helm, Argo CD, CircleCI
+- **Integrations and observability:** Stripe, Resend, Listmonk, Auth0, CloudWatch, New Relic, Backstage
+
+## Public code and earlier projects
+
+- **[NestJS API Starter](https://github.com/garretdgrant/nestjs-api-starter):** A personal API starter with Swagger documentation, health checks, Jest tests, and a multistage Docker build.
+- **[DiamondDoor](https://github.com/garretdgrant/diamond_door):** An earlier full-stack learning project inspired by Glassdoor, built with React, Redux, Ruby on Rails, and PostgreSQL.
+
+Outside of software, I enjoy working out, hiking, and the occasional pick-up basketball game.
