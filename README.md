@@ -27,7 +27,7 @@ Software Engineer at Realtor.com focused on TypeScript, JavaScript, full-stack a
 ## What I work on
 
 - **Production systems:** Key contributor to Realtor.com's CloudFront and Lambda@Edge router, with work spanning production changes, observability, and service migrations.
-- **Developer tooling:** Led development of all five versions of the TypeScript/NestJS Starter App and developer-portal template, standardizing microservice creation and deployment across 48 repositories, including 19 production services used by 13 teams.
+- **Developer tooling:** Led development of all five versions of the TypeScript/NestJS Starter App and developer-portal template, used to create 48 repositories, with 19 production services across 13 teams.
 - **Full-stack products:** Built the PepPal React/TypeScript application and NestJS/PostgreSQL backend, alongside Next.js marketing websites for PepPal and Peptide Dosing Protocols.
 
 ## Selected products
