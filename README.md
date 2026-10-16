@@ -37,7 +37,10 @@ Software Engineer at Realtor.com focused on TypeScript, JavaScript, full-stack a
 A production application for saved calculations, calendar-based tracking, and subscription features.
 
 <a href="https://app.peppal.app/#demo">
-  <img src="./assets/peppal-demo-poster.jpg" alt="Public PepPal product demo preview showing the app's calendar interface. Click to watch the 26-second demo." width="760">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/peppal-demo-poster.jpg">
+    <img src="./assets/peppal-pro-demo.gif" alt="Animated PepPal product preview: schedule a saved calculation, switch calendar views, and mark an entry complete. Click to watch the full 26-second demo." width="760">
+  </picture>
 </a>
 <a href="https://app.peppal.app/#demo">
   <img src="./assets/peppal-demo-cta.svg" alt="Watch the 26-second PepPal product demo: calculate, save, schedule, and track." width="760">
