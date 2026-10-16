@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Garret Grant — Software Engineer</title>
+  <desc id="desc">TypeScript, full-stack products, APIs, and AWS. A minimal connected-systems motif accompanies the profile introduction.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101D2E"/>
+      <stop offset="1" stop-color="#142737"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="877" y1="140" x2="1110" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64D8C3"/>
+      <stop offset="1" stop-color="#73B7E1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="18" fill="url(#surface)" stroke="#2A3D4D"/>
+  <rect x="56" y="51" width="25" height="3" rx="1.5" fill="#64D8C3"/>
+  <text x="94" y="59" fill="#B3C5D4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" letter-spacing="1.2">Software Engineer</text>
+  <text x="54" y="140" fill="#F0F5FA" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2.3">Garret Grant</text>
+  <text x="56" y="192" fill="#B3C5D4" font-family="Arial, Helvetica, sans-serif" font-size="22">TypeScript · Full-stack products · APIs · AWS</text>
+  <path d="M56 230H732" stroke="#2A3D4D"/>
+  <path d="M56 230H126" stroke="#64D8C3" stroke-width="3" stroke-linecap="round"/>
+  <g aria-hidden="true">
+    <path d="M872 84H932C953 84 966 97 966 118V140M872 196H932C953 196 966 183 966 162V140M966 140H1020C1040 140 1052 128 1052 108V69M966 140H1020C1040 140 1052 152 1052 172V211M1052 69H1120M1052 211H1120" stroke="#2F4859" stroke-width="2" stroke-linecap="round"/>
+    <path d="M872 84H932C953 84 966 97 966 118V140H1020C1040 140 1052 152 1052 172V211H1120" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="966" cy="140" r="34" fill="#193B42" stroke="#2E5B5E"/>
+    <circle cx="966" cy="140" r="21" fill="#64D8C3"/>
+    <path d="M956 140H976M966 130V150" stroke="#133B3A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="872" cy="84" r="7" fill="#101D2E" stroke="#64D8C3" stroke-width="2"/>
+    <circle cx="872" cy="196" r="5" fill="#101D2E" stroke="#456473" stroke-width="2"/>
+    <circle cx="1120" cy="69" r="5" fill="#142737" stroke="#456473" stroke-width="2"/>
+    <circle cx="1120" cy="211" r="7" fill="#142737" stroke="#73B7E1" stroke-width="2"/>
+  </g>
+</svg>

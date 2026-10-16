@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">PepPal — Watch the 26-second product demo</title>
+  <desc id="desc">Calculate, save, schedule, and track. A play symbol invites visitors to open the PepPal product demo.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1200" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101D2E"/>
+      <stop offset="1" stop-color="#16323E"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="179" rx="18" fill="url(#surface)" stroke="#2A4855"/>
+  <g aria-hidden="true">
+    <circle cx="88" cy="90" r="39" stroke="#31575A"/>
+    <circle cx="88" cy="90" r="31" fill="#64D8C3"/>
+    <path d="M81 77L101 90L81 103V77Z" fill="#123539" stroke="#123539" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <text x="154" y="52" fill="#64D8C3" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="0.2">PepPal</text>
+  <text x="152" y="98" fill="#F0F5FA" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.7">Watch the 26-second product demo</text>
+  <text x="154" y="135" fill="#B3C5D4" font-family="Arial, Helvetica, sans-serif" font-size="20">Calculate · Save · Schedule · Track</text>
+  <g aria-hidden="true">
+    <path d="M918 51H966C985 51 997 63 997 82V98C997 117 1009 129 1028 129H1090" stroke="#31515E" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="918" cy="51" r="4" fill="#16303C" stroke="#487985" stroke-width="2"/>
+    <circle cx="1090" cy="129" r="4" fill="#16303C" stroke="#487985" stroke-width="2"/>
+    <path d="M1070 65H1106V101M1104 67L1069 102" stroke="#64D8C3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
